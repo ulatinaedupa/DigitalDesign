@@ -1,0 +1,18 @@
+Vivado Simulator 2018.3
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2018.3/bin/unwrapped/win64.o/xelab.exe -wto 468e66bc7735415c8a8b3ac5f102c61a --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot Counter_TB_behav xil_defaultlib.Counter_TB -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+WARNING: [VRFC 10-3813] value in initialization depends on signal 'sync_reset' [F:/Universida Latina de Panama/Diseno de Sistemas de Control Digital/Laboratorios/Laboratorio 3/Counter/Counter.srcs/sources_1/new/Counter_TB.vhd:58]
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.math_real
+Compiling package ieee.numeric_std
+Compiling architecture behavioral of entity xil_defaultlib.Counter [\Counter(max_val=10)\]
+Compiling architecture testbench of entity xil_defaultlib.counter_tb
+Built simulation snapshot Counter_TB_behav
